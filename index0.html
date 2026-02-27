@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>index0</title>
+    <title>index0 - Конь и слон</title>
     <style>
         body 
         {
@@ -46,11 +46,58 @@
             border: 1px solid gray;
             padding: 5px;
         }
+      
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-icon {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #333;
+        }
+        .logo-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            font-style: normal;
+        }
+        .logo-text span {
+            color: red;
+            font-style: italic;
+        }
+        h1 {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+      
     </style>
 </head>
 <body>
 
-    <h1>Магазин шахматной продукции "Конь и слон"</h1>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-icon">♞</div>
+        </div>
+        <h1>Магазин шахматной продукции "Конь и слон"</h1>
+        <div style="width: 140px;"></div>
+    </div>
     
     <nav style="text-align: center; margin-bottom: 30px;">
         <a href="index0.html">Главная</a> |
@@ -59,7 +106,7 @@
     </nav>
 
     <div class="text-block">
-        Добро пожаловать! Магазин "Конь и слон" приветствует Вас!.<br>
+        Добро пожаловать! Магазин "Конь и слон" приветствует Вас!<br>
         Мы всегда рады новым покупателям.
         Не желаете ли приобрести нашу продукцию?
     </div>

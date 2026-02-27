@@ -2,13 +2,15 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О нас</title>
+    <title>О нас - Конь и слон</title>
     <style>
-        body {
+        body 
+        {
             margin: 20px;
             font-family: Arial, sans-serif;
         }
-        h1 {
+        h1 
+        {
             text-align: center;
             color: red;
         }
@@ -18,33 +20,73 @@
             font-style: italic;
             font-size: 1.2em;
         }
-        nav a {
+        nav a 
+        {
             color: blue;
             font-style: italic;
             font-size: 1.2em;
             margin: 0 10px;
         }
-        ul {
-            list-style-type: circle;
+        ul 
+        {
+            list-style-type: square, circle;
             text-align: right;
             padding-right: 20px;
         }
-        table {
+        table 
+        {
             margin-left: auto;
             margin-right: 0;
             border: 3px solid black;
             border-collapse: separate;
             border-spacing: 4px;
         }
-        td, th {
+        td, th 
+        {
             border: 1px solid gray;
             padding: 5px;
+        }
+      
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo-icon {
+            width: 60px;
+            height: 60px;
+            background-color: white;
+            border: 2px solid black;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: #333;
+        }
+        h1 {
+            margin: 0;
+            flex-grow: 1;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
-    <h1>Магазин шахматной продукции "Конь и слон"</h1>
+    <div class="header">
+        <div class="logo">
+            <div class="logo-icon">♞</div>
+        </div>
+        <h1>Магазин шахматной продукции "Конь и слон"</h1>
+        <div style="width: 140px;"></div>
+    </div>
     
     <nav style="text-align: center; margin-bottom: 30px;">
         <a href="index0.html">Главная</a> |
@@ -52,7 +94,6 @@
         <a href="список.html">О нас</a>
     </nav>
 
-    
     <ul>
         <li>Доступные цены</li>
         <li>Высокое качество</li>
