@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О нас - Конь и слон</title>
+    <title>Ассортимент</title>
     <style>
         body 
         {
@@ -27,16 +27,9 @@
             font-size: 1.2em;
             margin: 0 10px;
         }
-        ul > li {
-            list-style-type: square;
-            font-weight: bold;
-        }
-        ul ul li {
+        ul 
+        {
             list-style-type: circle;
-            font-weight: normal;
-            margin-right: 20px;
-        }
-        ul {
             text-align: right;
             padding-right: 20px;
         }
@@ -53,7 +46,7 @@
             border: 1px solid gray;
             padding: 5px;
         }
-      
+        
         .header {
             display: flex;
             align-items: center;
@@ -85,8 +78,8 @@
         }
     </style>
 </head>
-<body>
 
+<body>
     <div class="header">
         <div class="logo">
             <div class="logo-icon">♞</div>
@@ -96,25 +89,42 @@
     </div>
     
     <nav style="text-align: center; margin-bottom: 30px;">
-        <a href="index0.html">Главная</a> |
-        <a href="таблица.html">Ассортимент</a> |
-        <a href="список.html">О нас</a>
+        <a href="C:/html_/index0.html">Главная</a> |
+        <a href="C:/html_/таблица.html">Ассортимент</a> |
+        <a href="C:/html_/список.html">О нас</a>
     </nav>
 
-    <ul>
-        <li>Преимущества
-            <ul>
-                <li>Доступные цены</li>
-                <li>Высокое качество</li>
-                <li>Быстрая доставка</li>
-            </ul>
-        </li>
-        <li>Недостатки
-            <ul>
-                <li>Мы не нашли</li>
-            </ul>
-        </li>
-    </ul>
+    
+    <table>
+    <tr>
+        <th colspan="3">Ассортимент</th> 
+    </tr>
+    <tr>
+        <th>Продукт</th>
+        <th>Цена за ед.</th>
+        <th>Наличие</th>
+    </tr>
+    <tr>
+        <td>Шахматный набор - дубовый</td>
+        <td>80 руб.</td>
+        <td>в наличии</td>
+    </tr>
+    <tr>
+        <td>Шахматный набор - оловянный</td>
+        <td>130 руб.</td>
+        <td>под заказ</td>
+    </tr>
+    <tr>
+        <td>Шахматы демонстрационные</td>
+        <td>200 руб.</td>
+        <td>в наличии</td>
+    </tr>
+    <tr>
+        <td>Шахматные часы</td>
+        <td>50 руб.</td>
+        <td>в наличии</td>
+    </tr>
+</table>
 
 </body>
 </html>
