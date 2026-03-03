@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>О нас - Конь и слон</title>
+    <title>index0 - Конь и слон</title>
     <style>
         body 
         {
@@ -27,16 +27,9 @@
             font-size: 1.2em;
             margin: 0 10px;
         }
-        ul > li {
-            list-style-type: square;
-            font-weight: bold;
-        }
-        ul ul li {
+        ul 
+        {
             list-style-type: circle;
-            font-weight: normal;
-            margin-right: 20px;
-        }
-        ul {
             text-align: right;
             padding-right: 20px;
         }
@@ -78,11 +71,22 @@
             font-size: 40px;
             color: #333;
         }
+        .logo-text {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            font-style: normal;
+        }
+        .logo-text span {
+            color: red;
+            font-style: italic;
+        }
         h1 {
             margin: 0;
             flex-grow: 1;
             text-align: center;
         }
+      
     </style>
 </head>
 <body>
@@ -96,26 +100,18 @@
     </div>
     
     <nav style="text-align: center; margin-bottom: 30px;">
-   <a href="index.html">Главная</a> |
+   <a href="index0.html">Главная</a> |
    <a href="таблица.html">Ассортимент</a> |
    <a href="список.html">О нас</a>
 </nav>
+</nav>
     </nav>
 
-    <ul>
-        <li>Преимущества
-            <ul>
-                <li>Доступные цены</li>
-                <li>Высокое качество</li>
-                <li>Быстрая доставка</li>
-            </ul>
-        </li>
-        <li>Недостатки
-            <ul>
-                <li>Мы не нашли</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="text-block">
+        Добро пожаловать! Магазин "Конь и слон" приветствует Вас!<br>
+        Мы всегда рады новым покупателям.
+        Не желаете ли приобрести нашу продукцию?
+    </div>
 
 </body>
 </html>
