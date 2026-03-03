@@ -27,9 +27,16 @@
             font-size: 1.2em;
             margin: 0 10px;
         }
-        ul 
-        {
+        ul > li {
             list-style-type: square;
+            font-weight: bold;
+        }
+        ul ul li {
+            list-style-type: circle;
+            font-weight: normal;
+            margin-right: 20px;
+        }
+        ul {
             text-align: right;
             padding-right: 20px;
         }
@@ -89,15 +96,24 @@
     </div>
     
     <nav style="text-align: center; margin-bottom: 30px;">
-        <a href="index0.html">Главная</a> |
-        <a href="таблица.html">Ассортимент</a> |
-        <a href="список.html">О нас</a>
+        <a href="C:/html_/index0.html">Главная</a> |
+        <a href="C:/html_/таблица.html">Ассортимент</a> |
+        <a href="C:/html_/список.html">О нас</a>
     </nav>
 
     <ul>
-        <li>Доступные цены</li>
-        <li>Высокое качество</li>
-        <li>Быстрая доставка</li>
+        <li>Преимущества
+            <ul>
+                <li>Доступные цены</li>
+                <li>Высокое качество</li>
+                <li>Быстрая доставка</li>
+            </ul>
+        </li>
+        <li>Недостатки
+            <ul>
+                <li>Мы не нашли</li>
+            </ul>
+        </li>
     </ul>
 
 </body>
